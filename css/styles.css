@@ -1,0 +1,96 @@
+:root {
+  /* Основные шрифты */
+  --main-font: Roboto;
+  --secondary-font: Raleway;
+
+  /* Цвет текста */
+  --primary-txt: #212121;
+  --secondary-txt: #757575;
+  --accent-txt: #2196f3;
+  --white-txt: #ffffff;
+
+  /* Цвет фона */
+  --primary-light-bg: #e5e5e5;
+  --header-bg: #ffffff;
+  --secondary-light-bg: #f5f4fa;
+  --primary-dark-bg: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-txt);
+}
+
+.subtitle {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt);
+}
+
+.team-title {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt);
+}
+
+.logo-web {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-txt);
+}
+
+.header-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-txt);
+}
+
+.nav-link:hover,
+.nav-link:hover {
+  color: var(--accent-txt);
+}
